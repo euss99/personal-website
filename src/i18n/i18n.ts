@@ -100,6 +100,38 @@ const translations: { en: Translation; es: Translation } = {
         button: "Send",
       },
     },
+    projectsPage: {
+      title: "Projects",
+      description: "Every project is a unique piece of development 🧩",
+      projects: {
+        project1: {
+          title: "Cashflow 💰",
+          description: "Expense tracking web application, allows users to register and categorize their expenses, view interactive graphs of their expenses and thus be able to track their expenses and income and be more aware of their finances.",
+        },
+        project2: {
+          title: "Catstagram 🐱",
+          description: "Project developed with a framework that displays images of cats obtained from an API. The application is responsive and updates automatically every time the page is loaded."
+        },
+        project3: {
+          title: "Flappy Bird 🐦",
+          description: "Game where the goal is to guide a bird through a series of pipes without crashing into them, clicking on the screen to make the bird fly and release to make it fall. The ultimate goal is to advance as far as possible in the game."
+        },
+        project4: {
+          title: "Weather App 🌤",
+          description: "Application that allows to know the current weather of a specific place in the world. To obtain the weather data, the OpenWeatherMap API is used.",
+        },
+        project5: {
+          title: "Mi primer juego 🎮",
+          description: "Game that consists of a character must overcome obstacles and reach the end of the level. The player controls him with the keyboard and if he hits an obstacle, he loses and must start over."
+        },
+        project6: {
+          title: "Calculadora básica ➕",
+          description: "The calculator is capable of performing basic mathematical operations, such as addition, subtraction, multiplication and division. It has a reset button that allows you to clear the current result and start over."
+        },
+      },
+      code: "Code",
+      demo: "Live demo"
+    },
   },
   es: {
     navbar: {
@@ -199,6 +231,38 @@ const translations: { en: Translation; es: Translation } = {
         message: "Contenido",
         button: "Enviar",
       },
+    },
+    projectsPage: {
+      title: "Proyectos",
+      description: "Cada proyecto es una pieza única de desarrollo 🧩",
+      projects: {
+        project1: {
+          title: "Cashflow 💰",
+          description: "Aplicación web de seguimiento de gastos, permite a los usuarios registrar y categorizar sus gastos, ver gráficos interactivos de sus gastos y así poder tener un seguimiento respecto a sus egresos e ingresos y ser más consientes respecto a su economía.",
+        },
+        project2: {
+          title: "Catstagram 🐱",
+          description: "Proyecto desarrollado con un framework que muestra imágenes de gatos obtenidas de una API. La aplicación es responsiva y se actualiza automáticamente cada vez que se carga la página."
+        },
+        project3: {
+          title: "Flappy Bird 🐦",
+          description: "Juego donde el objetivo es guiar a un pájaro a través de una serie de tuberías sin chocar contra ellas, haciendo clic en la pantalla para que el pájaro vuele y soltar para que caiga. El objetivo final es avanzar lo más posible en el juego."
+        },
+        project4: {
+          title: "Weather App 🌤",
+          description: "Aplicación que permite conocer el clima actual de un lugar específico en el mundo. Para obtener los datos del clima, se utiliza la API de OpenWeatherMap.",
+        },
+        project5: {
+          title: "Mi primer juego 🎮",
+          description: "Juego que consiste en un personaje debe superar obstáculos y llegar al final del nivel. El jugador lo controla con el teclado y si choca con un obstáculo, pierde y debe empezar de nuevo."
+        },
+        project6: {
+          title: "Calculadora básica ➕",
+          description: "La calculadora es capaz de realizar operaciones básicas de matemáticas, como la suma, resta, multiplicación y división. Dispone de un botón de reinicio que permite borrar el resultado actual y empezar de nuevo."
+        },
+      },
+      code: "Código",
+      demo: "Ver demo"
     },
   },
 };

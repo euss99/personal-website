@@ -6,6 +6,8 @@ import router from "./router";
 import translations from "@/i18n/i18n";
 
 import "bootstrap/scss/bootstrap.scss";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
 import "bootstrap";
 
 const i18n = createI18n({

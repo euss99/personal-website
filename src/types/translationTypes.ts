@@ -91,4 +91,36 @@ export type Translation = {
       button: string;
     };
   };
+  projectsPage: {
+    title: string;
+    description: string;
+    projects: {
+      project1: {
+        title: string;
+        description: string;
+      }
+      project2: {
+        title: string;
+        description: string;
+      }
+      project3: {
+        title: string;
+        description: string;
+      }
+      project4: {
+        title: string;
+        description: string;
+      }
+      project5: {
+        title: string;
+        description: string;
+      }
+      project6: {
+        title: string;
+        description: string;
+      }
+    }
+    code: string;
+    demo: string;
+  }
 };

@@ -30,7 +30,6 @@ const { t } = useI18n();
   .content-education {
     h1 {
       font-size: 24px;
-      margin-bottom: 8px !important;
       font-weight: bold;
       margin-bottom: 16px !important;
       color: $colorPrimary;

@@ -55,12 +55,11 @@ const { t } = useI18n();
     padding: 0 20px;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
+    align-items: flex-start;
+    justify-content: flex-start;
 
     h1 {
       font-size: 24px;
-      margin-bottom: 8px !important;
       font-weight: bold;
       margin-bottom: 16px !important;
       color: $colorPrimary;
@@ -69,7 +68,7 @@ const { t } = useI18n();
     .job {
       width: 100%;
       display: flex;
-      align-items: start;
+      align-items: flex-start;
       justify-content: center;
 
       .job-tile {
@@ -77,7 +76,7 @@ const { t } = useI18n();
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content: center;
+        justify-content: flex-start;
         margin-bottom: 20px;
 
         h4 {
