@@ -33,6 +33,7 @@ const { t } = useI18n();
   height: 73.2vh;
   display: grid;
   place-content: center;
+  margin: 0 auto !important;
 
   h1 {
     font-size: 2rem;
@@ -44,6 +45,7 @@ const { t } = useI18n();
 
   p {
     text-align: center;
+    width: 85%;
     font-weight: 400;
     margin-bottom: 1.5rem;
   }
@@ -52,7 +54,7 @@ const { t } = useI18n();
     width: 75% !important;
     border: 2px solid $colorPrimary;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 425px !important;
     border-radius: 1em;
     padding: 1.5em 1.5em 2em 1.5em;
 
