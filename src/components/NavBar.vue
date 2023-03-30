@@ -106,80 +106,90 @@ watch(locale, (): void => {
 <style scoped lang="scss">
 .navbar {
   background: $colorPrimary;
+  justify-content: center !important;
+  padding: 8px 0px !important;
 
-  @media (max-width: 575px) {
-    .container {
-      padding: 0px 32px;
-
-      .responsive-list {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0px;
-        padding: 0px;
-        list-style: none;
-
-        li {
-          margin: 0px;
-          padding: 0px;
-          width: 100%;
-          text-align: center;
-        }
-
-        .lenguage {
-          margin-bottom: 16px;
-        }
-      }
+  .container {
+    margin: 0px 119.444px !important;
+    padding: 0px 12px !important;
+    .logo {
+      margin: 4px 12px !important;
     }
-  }
 
-  .logo {
-    margin: 4px 12px !important;
-  }
-
-  .navbar-toggler {
-    border: none !important;
-
-    &:focus {
-      box-shadow: none !important;
+    .navbar-toggler {
       border: none !important;
-    }
-  }
-
-  div {
-    a {
-      color: $colorText2;
-
-      &:hover {
-        color: black !important;
-      }
-    }
-  }
-
-  .lenguage {
-    top: 7px !important;
-    height: 22px !important;
-
-    select {
-      border-radius: 5px;
-      margin-left: 16px;
-      background: none;
-      border: none !important;
-      color: $colorText2;
-      cursor: pointer;
-
-      option {
-        color: $colorText1;
-      }
-
-      &:hover {
-        color: black !important;
-      }
 
       &:focus {
-        outline: none !important;
+        box-shadow: none !important;
+        border: none !important;
+      }
+    }
+
+    .nav-link {
+      padding: 8px 16px !important;
+    }
+
+    div {
+      a {
+        color: $colorText2;
+
+        &:hover {
+          color: black !important;
+        }
+      }
+    }
+
+    .lenguage {
+      top: 7px !important;
+      height: 22px !important;
+
+      select {
+        border-radius: 5px;
+        margin-left: 16px;
+        background: none;
+        border: none !important;
+        color: $colorText2;
+        cursor: pointer;
+
+        option {
+          color: $colorText1;
+        }
+
+        &:hover {
+          color: black !important;
+        }
+
+        &:focus {
+          outline: none !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    padding: 0px 32px !important;
+
+    .responsive-list {
+      width: 100% !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      margin: 0px 0px 0px 0px !important;
+      padding: 0px 0px 0px 0px !important;
+      list-style: none !important;
+
+      li {
+        margin: 0px 0px 0px 0px !important;
+        padding: 0px 0px 0px 0px !important;
+        width: 100% !important;
+        text-align: center !important;
+      }
+
+      .lenguage {
+        margin-bottom: 16px !important;
       }
     }
   }
