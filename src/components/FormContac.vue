@@ -110,6 +110,7 @@ const { t } = useI18n();
 
 @media (max-width: 425px) {
   .container {
+    height: 85vh;
     .form {
       width: 90% !important;
     }
@@ -126,11 +127,6 @@ const { t } = useI18n();
     p {
       width: 80%;
       margin: 12px auto;
-    }
-
-    .form {
-      width: 85%;
-      max-width: 600px;
     }
   }
 }
