@@ -121,7 +121,7 @@ const translations: { en: Translation; es: Translation } = {
           description: "Application that allows to know the current weather of a specific place in the world. To obtain the weather data, the OpenWeatherMap API is used.",
         },
         project5: {
-          title: "Mi primer juego 🎮",
+          title: "Super Runner 🎮",
           description: "Game that consists of a character must overcome obstacles and reach the end of the level. The player controls him with the keyboard and if he hits an obstacle, he loses and must start over."
         },
         project6: {
@@ -253,7 +253,7 @@ const translations: { en: Translation; es: Translation } = {
           description: "Aplicación que permite conocer el clima actual de un lugar específico en el mundo. Para obtener los datos del clima, se utiliza la API de OpenWeatherMap.",
         },
         project5: {
-          title: "Mi primer juego 🎮",
+          title: "Super Runner 🎮",
           description: "Juego que consiste en un personaje debe superar obstáculos y llegar al final del nivel. El jugador lo controla con el teclado y si choca con un obstáculo, pierde y debe empezar de nuevo."
         },
         project6: {
