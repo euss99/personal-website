@@ -45,7 +45,7 @@ const deg = 360 / length;
 <style scoped lang="scss">
 .container {
   padding: 0 !important;
-  margin-top: 120px;
+  margin: 120px auto 0 auto !important;
 
   .about-me {
     margin: 0 auto;

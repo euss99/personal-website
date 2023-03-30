@@ -169,7 +169,7 @@ watch(locale, (): void => {
 
 @media (max-width: 575px) {
   .container {
-    padding: 0px 32px !important;
+    padding: 0px 8% !important;
 
     .responsive-list {
       width: 100% !important;

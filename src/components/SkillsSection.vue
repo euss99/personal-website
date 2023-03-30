@@ -13,7 +13,7 @@
         </div>
       </div>
 
-      <div class="mt-3 skills-tech">
+      <div class="skills-tech">
         <p>Tech Stack Back</p>
         <div class="line"></div>
         <div class="img-container">
@@ -28,7 +28,7 @@
 
 <style scoped lang="scss">
 .container {
-  margin-top: 125px !important;
+  margin: 150px auto 0 auto !important;
 
   .skills {
     display: flex;
@@ -38,6 +38,7 @@
     .skills-tech {
       display: flex;
       align-items: center;
+      margin-top: 32px;
 
       p {
         font-weight: 500;

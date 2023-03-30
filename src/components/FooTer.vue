@@ -176,6 +176,7 @@ footer {
   }
 
   .container {
+    margin: 0 auto !important;
     .copy {
       border-top: 1px solid $colorText2;
       font-size: small;
