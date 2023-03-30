@@ -110,7 +110,7 @@ watch(locale, (): void => {
   padding: 8px 0px !important;
 
   .container {
-    margin: 0px 119.444px !important;
+    margin: 0px auto !important;
     padding: 0px 12px !important;
     .logo {
       margin: 4px 12px !important;
