@@ -8,9 +8,9 @@
             <span>{{ t("heroSection.title") }} 👋🏼</span>
             <h3>{{ t("heroSection.subtitle") }}</h3>
             <p>{{ t("heroSection.content") }}</p>
-            <button class="btn btn-secondary">
+            <a href="/cv.pdf" class="btn btn-secondary" download>
               {{ t("heroSection.button2") }}
-            </button>
+            </a>
           </div>
         </div>
       </div>
