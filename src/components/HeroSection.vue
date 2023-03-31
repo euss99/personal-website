@@ -8,7 +8,7 @@
             <span>{{ t("heroSection.title") }} 👋🏼</span>
             <h3>{{ t("heroSection.subtitle") }}</h3>
             <p>{{ t("heroSection.content") }}</p>
-            <a href="/cv.pdf" class="btn btn-secondary" download>
+            <a :href="t('navbar.routePath')" class="btn btn-secondary" download>
               {{ t("heroSection.button2") }}
             </a>
           </div>

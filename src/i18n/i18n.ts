@@ -3,9 +3,10 @@ import type { Translation } from "@/types/translationTypes";
 const translations: { en: Translation; es: Translation } = {
   en: {
     navbar: {
-      link1: "Init",
+      link1: "Home",
       link2: "Projects",
       link3: "Contact",
+      routePath: "/public/cv-en.pdf"
     },
     heroSection: {
       title: "I'm Uriel Solís",
@@ -138,6 +139,7 @@ const translations: { en: Translation; es: Translation } = {
       link1: "Inicio",
       link2: "Proyectos",
       link3: "Contacto",
+      routePath: "/public/cv-es.pdf"
     },
     heroSection: {
       title: "Soy Uriel Solís",
