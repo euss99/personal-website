@@ -6,7 +6,7 @@ const translations: { en: Translation; es: Translation } = {
       link1: "Home",
       link2: "Projects",
       link3: "Contact",
-      routePath: "/public/Resume-EfrainUrielSolisSalinas.pdf"
+      routePath: "/Resume-EfrainUrielSolisSalinas.pdf"
     },
     heroSection: {
       title: "I'm Uriel Solís",
@@ -139,7 +139,7 @@ const translations: { en: Translation; es: Translation } = {
       link1: "Inicio",
       link2: "Proyectos",
       link3: "Contacto",
-      routePath: "/public/CV-EfrainUrielSolisSalinas.pdf"
+      routePath: "/CV-EfrainUrielSolisSalinas.pdf"
     },
     heroSection: {
       title: "Soy Uriel Solís",
