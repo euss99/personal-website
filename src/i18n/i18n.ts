@@ -53,7 +53,7 @@ const translations: { en: Translation; es: Translation } = {
       jobs: {
         job1: {
           title: "Frontend Developer",
-          date: "2023 - Present",
+          date: "Oct. 2022 - Present",
           company: "WAYAKNA SA de CV",
           description: {
             p1: "I developed specialized skills in the creation of web pages using frameworks such as Vue.js. I worked on projects where I was able to develop my expertise in UI/UX design and responsive web page creation.",
@@ -63,7 +63,7 @@ const translations: { en: Translation; es: Translation } = {
         },
         job2: {
           title: "Quality Control Supervisor",
-          date: "2021 - 2022",
+          date: "Oct. 2021 - May. 2022",
           company: "Productos de harina SA de CV, Dondé",
           description: {
             p1: "In my work experience as a quality supervisor, I was responsible for ensuring that production processes met established quality standards. This included supervising and monitoring processes, performing tests and evaluations, and ensuring compliance with required specifications. In addition, I also gave induction courses to new workers in the company, presenting the company's quality policies and procedures and the tools and techniques used to ensure quality in production.",
@@ -71,7 +71,7 @@ const translations: { en: Translation; es: Translation } = {
         },
         job3: {
           title: "Quality Assistant and Production Area Supervisor",
-          date: "2020 - 2021",
+          date: "Nov. 2020 - Jul. 2021",
           company: "PCP del sureste SA de CV",
           description: {
             p1: "As responsible for production inspection and worker procedures, I supervised and monitored production processes to ensure compliance with quality and safety standards. I implemented and supervised production inspection and equipment cleaning procedures, and worked collaboratively with production personnel, training new workers and overseeing processes to ensure consistency and compliance with procedures. In addition, I maintained detailed records of cleaning procedures to ensure compliance with quality and safety standards. My experience has given me a solid understanding of production processes and effective leadership and organizational skills.",
@@ -186,7 +186,7 @@ const translations: { en: Translation; es: Translation } = {
       jobs: {
         job1: {
           title: "Desarrollador frontend",
-          date: "2023 - Presente",
+          date: "Oct. 2022 - Presente",
           company: "WAYAKNA SA de CV",
           description: {
             p1: "Desarrollé habilidades especializadas en la creación de páginas web utilizando frameworks como Vue.js. Trabajé en proyectos en los que pude desarrollar mi experiencia en el diseño UI/UX y la creación de páginas web responsivas.",
@@ -196,7 +196,7 @@ const translations: { en: Translation; es: Translation } = {
         },
         job2: {
           title: "Supervisor de control de calidad",
-          date: "2021 - 2022",
+          date: "Oct. 2021 - May. 2022",
           company: "Productos de harina SA de CV, Dondé",
           description: {
             p1: "En mi experiencia laboral como supervisor de calidad, fui responsable de asegurar que los procesos de producción cumplieran con los estándares de calidad establecidos. Esto incluyó supervisar y monitorear procesos, realizar pruebas y evaluaciones, y asegurar el cumplimiento de las especificaciones requeridas. Además, también di cursos de inducción a los nuevos trabajadores de la empresa, presentando las políticas y procedimientos de calidad de la empresa y las herramientas y técnicas utilizadas para garantizar la calidad en la producción.",
@@ -204,7 +204,7 @@ const translations: { en: Translation; es: Translation } = {
         },
         job3: {
           title: "Auxiliar de calidad y supervisor de área de producción",
-          date: "2020 - 2021",
+          date: "Nov. 2020 - Jul. 2021",
           company: "PCP del sureste SA de CV",
           description: {
             p1: "Como responsable de la inspección de producción y los procedimientos de los trabajadores, supervisé y monitoreé los procesos de producción para garantizar el cumplimiento de los estándares de calidad y seguridad. Implementé y supervisé los procedimientos de inspección de producción y limpieza de equipos, y trabajé de manera colaborativa con el personal de producción, capacitando a los nuevos trabajadores y supervisando los procesos para garantizar la consistencia y el cumplimiento de los procedimientos. Además, mantuve registros detallados de los procedimientos de limpieza para garantizar el cumplimiento de los estándares de calidad y seguridad. Mi experiencia me ha dado una sólida comprensión de los procesos de producción, habilidades de liderazgo y organización efectivas.",
