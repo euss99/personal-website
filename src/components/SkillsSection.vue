@@ -5,11 +5,18 @@
         <p>Tech Stack Front</p>
         <div class="line"></div>
         <div class="img-container">
+          <img class="rounded" src="../assets/img/JS.png" alt="Logo JS" />
           <img src="../assets/img/TS.png" alt="Logo TS" />
-          <img src="../assets/img/bootstrap.png" alt="Logo BS" />
           <img class="img-vue" src="../assets/img/vue.png" alt="Logo Vue" />
+          <img class="react" src="../assets/img/react.png" alt="Logo react" />
+          <img src="../assets/img/next.webp" alt="Logo next" />
           <img src="../assets/img/sass.png" alt="Logo SASS" />
-          <img src="../assets/img/figma.png" alt="Logo Figma" />
+          <img
+            class="tailwind"
+            src="../assets/img/tailwind.png"
+            alt="Logo tailwind"
+          />
+          <img src="../assets/img/bootstrap.png" alt="Logo BS" />
         </div>
       </div>
 
@@ -17,9 +24,12 @@
         <p>Tech Stack Back</p>
         <div class="line"></div>
         <div class="img-container">
-          <img class="rounded" src="../assets/img/JS.png" alt="Logo JS" />
-          <img class="node-img" src="../assets/img/node.png" alt="Logo TS" />
-          <img src="../assets/img/python.png" alt="Logo BS" />
+          <img class="node-img" src="../assets/img/node.png" alt="Logo node" />
+          <img class="express" src="../assets/img/express.png" alt="Logo express" />
+          <img class="mongodb" src="../assets/img/mongodb.svg" alt="Logo mongo" />
+          <img class="firebase" src="../assets/img/firebase.webp" alt="Logo firebase" />
+          <img class="mongodb" src="../assets/img/postman.svg" alt="Logo postman" />
+          <img class="mongodb" src="../assets/img/insomnia.png" alt="Logo insomnia" />
         </div>
       </div>
     </div>
@@ -62,13 +72,26 @@
           margin: 15px 30px;
         }
 
+        .tailwind {
+          width: 65px;
+        }
+
+        .react {
+          width: 55px;
+        }
+
         .img-vue {
           width: 60px;
         }
 
         .node-img {
-          width: 70px;
+          width: 75px;
         }
+
+        .express, .firebase {
+          width: 60px;
+          height: 60px;
+        } 
       }
     }
   }

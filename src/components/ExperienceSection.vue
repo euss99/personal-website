@@ -10,8 +10,6 @@
         </div>
         <div class="job-description">
           <p>{{ t("experienceSection.jobs.job1.description.p1") }}</p>
-          <p>{{ t("experienceSection.jobs.job1.description.p2") }}</p>
-          <p>{{ t("experienceSection.jobs.job1.description.p3") }}</p>
         </div>
       </div>
       <div class="job second-job">

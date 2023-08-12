@@ -6,11 +6,11 @@ const translations: { en: Translation; es: Translation } = {
       link1: "Home",
       link2: "Projects",
       link3: "Contact",
-      routePath: "/Resume-EfrainUrielSolisSalinas.pdf"
+      routePath: "/Resume-EfrainUrielSolisSalinas.pdf",
     },
     heroSection: {
       title: "I'm Uriel Solís",
-      subtitle: "Frontend Developer",
+      subtitle: "FullStack Developer",
       content: "This is my web Portfolio!",
       button1: "See my projects",
       button2: "Download CV",
@@ -19,11 +19,11 @@ const translations: { en: Translation; es: Translation } = {
       title: "About me",
       content: {
         sectionP1:
-          "Hi! I'm Uriel Solis and I currently live in Merida, Yucatan. After years of working in an industry that didn't allow me to explore my creativity and passion for technology, I decided to pursue my dream of becoming a frontend developer. Since then, I have worked on a variety of projects, from small websites to complex mobile applications.",
+          "Hi! I'm Uriel Solis and I currently live in Merida, Yucatan. After years of working in an industry that didn't allow me to explore my creativity and passion for technology, I decided to pursue my dream of becoming a fullstack developer. Since then, I have worked on a variety of projects, from small websites to complex mobile applications.",
         sectionP2:
           "My skills include HTML, CSS, JavaScript and frameworks such as React and Vue.js, as well as having a knowledge in UX/UI. I'm always looking to create engaging, user-friendly and effective digital solutions for users..",
         sectionP3:
-          "I enjoy working in teams and collaborating with designers, backend developers and other professionals to create innovative digital solutions. My goal is to continue to grow as a frontend developer and work on projects that allow me to apply my skills.",
+          "I enjoy working in teams and collaborating with designers, backend developers and other professionals to create innovative digital solutions. My goal is to continue to grow as a fullstack developer and work on projects that allow me to apply my skills.",
       },
     },
     skillsSection: {
@@ -49,32 +49,30 @@ const translations: { en: Translation; es: Translation } = {
       },
     },
     experienceSection: {
-      title: "Experience",
+      title: "Experiencia",
       jobs: {
         job1: {
-          title: "Frontend Developer",
-          date: "Oct. 2022 - Present",
-          company: "WAYAKNA SA de CV",
+          title: "Freelance Frontend Developer",
+          date: "May. 2023 - Present",
+          company: "Personal project",
           description: {
-            p1: "I developed specialized skills in the creation of web pages using frameworks such as Vue.js. I worked on projects where I was able to develop my expertise in UI/UX design and responsive web page creation.",
-            p2: "In addition, I generated experience in the creation and maintenance of API's with Python. My experience in implementing SASS and Bootstrap in projects has allowed me to design websites and web applications with a consistent style and a solid structure.",
-            p3: "I improved my ability to conduct meetings with clients to understand their needs and goals in detail and to be able to work closely with multidisciplinary teams and provide quality solutions.",
+            p1: "I used Vue.js and JavaScript to create an application, optimizing performance with specific Vue.js libraries. I worked in a team, collaborating closely with a UI/UX designer, and we used Astro to develop the landing page. We implemented Git Flow and SCRUM for efficient project management. In addition, I integrated the frontend with the backend through an API, and used tools such as SASS and Tailwind CSS to improve the styles and design of the project.",
           },
         },
         job2: {
-          title: "Quality Control Supervisor",
-          date: "Oct. 2021 - May. 2022",
-          company: "Productos de harina SA de CV, Dondé",
+          title: "FullStack Developer",
+          date: "Feb. 2022 - Jul. 2023",
+          company: "Original Protostar Marketing",
           description: {
-            p1: "In my work experience as a quality supervisor, I was responsible for ensuring that production processes met established quality standards. This included supervising and monitoring processes, performing tests and evaluations, and ensuring compliance with required specifications. In addition, I also gave induction courses to new workers in the company, presenting the company's quality policies and procedures and the tools and techniques used to ensure quality in production.",
+            p1: "Determined technologies such as Vue.js, React, Next.js to create websites according to client requirements. I collaborated with the web design team and provided support in the creation of APIs with Node.js and Express in the backend. In addition, I performed database analysis using MongoDB. I coded, designed, and laid out websites according to company specifications, providing ongoing support and maintenance. Focused on providing an excellent user experience, I acquired skills in UI/UX.",
           },
         },
         job3: {
-          title: "Quality Assistant and Production Area Supervisor",
-          date: "Nov. 2020 - Jul. 2021",
-          company: "PCP del sureste SA de CV",
+          title: "Frontend Developer",
+          date: "Ago. 2022 - Feb. 2023",
+          company: "WAYAKNA SA de CV",
           description: {
-            p1: "As responsible for production inspection and worker procedures, I supervised and monitored production processes to ensure compliance with quality and safety standards. I implemented and supervised production inspection and equipment cleaning procedures, and worked collaboratively with production personnel, training new workers and overseeing processes to ensure consistency and compliance with procedures. In addition, I maintained detailed records of cleaning procedures to ensure compliance with quality and safety standards. My experience has given me a solid understanding of production processes and effective leadership and organizational skills.",
+            p1: "I acquired skills in the creation of web pages with Vue.js and in the design of responsive user interfaces (UI/UX). Experience in creating and maintaining API's with Python. Use of SASS and Bootstrap to design websites and web applications. Ability to conduct client meetings, work in multidisciplinary teams and deliver quality solutions. Committed to excellence and exceptional results.",
           },
         },
       },
@@ -107,31 +105,37 @@ const translations: { en: Translation; es: Translation } = {
       projects: {
         project1: {
           title: "Cashflow 💰",
-          description: "Expense tracking web application, allows users to register and categorize their expenses, view interactive graphs of their expenses and thus be able to track their expenses and income and be more aware of their finances.",
+          description:
+            "Expense tracking web application, allows users to register and categorize their expenses, view interactive graphs of their expenses and thus be able to track their expenses and income and be more aware of their finances.",
         },
         project2: {
           title: "Catstagram 🐱",
-          description: "Project developed with a framework that displays images of cats obtained from an API. The application is responsive and updates automatically every time the page is loaded."
+          description:
+            "Project developed with a framework that displays images of cats obtained from an API. The application is responsive and updates automatically every time the page is loaded.",
         },
         project3: {
           title: "Flappy Bird 🐦",
-          description: "Game where the goal is to guide a bird through a series of pipes without crashing into them, clicking on the screen to make the bird fly and release to make it fall. The ultimate goal is to advance as far as possible in the game."
+          description:
+            "Game where the goal is to guide a bird through a series of pipes without crashing into them, clicking on the screen to make the bird fly and release to make it fall. The ultimate goal is to advance as far as possible in the game.",
         },
         project4: {
           title: "Weather App 🌤",
-          description: "Application that allows to know the current weather of a specific place in the world. To obtain the weather data, the OpenWeatherMap API is used.",
+          description:
+            "Application that allows to know the current weather of a specific place in the world. To obtain the weather data, the OpenWeatherMap API is used.",
         },
         project5: {
           title: "Super Runner 🎮",
-          description: "Game that consists of a character must overcome obstacles and reach the end of the level. The player controls him with the keyboard and if he hits an obstacle, he loses and must start over."
+          description:
+            "Game that consists of a character must overcome obstacles and reach the end of the level. The player controls him with the keyboard and if he hits an obstacle, he loses and must start over.",
         },
         project6: {
           title: "Calculadora básica ➕",
-          description: "The calculator is capable of performing basic mathematical operations, such as addition, subtraction, multiplication and division. It has a reset button that allows you to clear the current result and start over."
+          description:
+            "The calculator is capable of performing basic mathematical operations, such as addition, subtraction, multiplication and division. It has a reset button that allows you to clear the current result and start over.",
         },
       },
       code: "Code",
-      demo: "Live demo"
+      demo: "Live demo",
     },
   },
   es: {
@@ -139,11 +143,11 @@ const translations: { en: Translation; es: Translation } = {
       link1: "Inicio",
       link2: "Proyectos",
       link3: "Contacto",
-      routePath: "/CV-EfrainUrielSolisSalinas.pdf"
+      routePath: "/CV-EfrainUrielSolisSalinas.pdf",
     },
     heroSection: {
       title: "Soy Uriel Solís",
-      subtitle: "Desarrollador Frontend",
+      subtitle: "Desarrollador FullStack",
       content: "¡Este es mi portafolio web!",
       button1: "Ver proyectos",
       button2: "Descargar CV",
@@ -152,11 +156,11 @@ const translations: { en: Translation; es: Translation } = {
       title: "Acerca de mi",
       content: {
         sectionP1:
-          "¡Hola! Soy Uriel Solis y actualmente vivo en Mérida, Yucatán. Tras años de trabajar en una industria que no me permitía explorar mi creatividad y pasión por la tecnología, decidí perseguir mi sueño de convertirme en desarrollador frontend. Desde entonces, he trabajado en diversos proyectos, desde pequeños sitios web hasta complejas aplicaciones móviles.",
+          "¡Hola! Soy Uriel Solis y actualmente vivo en Mérida, Yucatán. Tras años de trabajar en una industria que no me permitía explorar mi creatividad y pasión por la tecnología, decidí perseguir mi sueño de convertirme en desarrollador fullstack. Desde entonces, he trabajado en diversos proyectos, desde pequeños sitios web hasta complejas aplicaciones móviles.",
         sectionP2:
           "Mis habilidades incluyen HTML, CSS, JavaScript y frameworks como React y Vue.js, además de tener un conocimiento en UX/UI. Siempre busco crear soluciones digitales atractivas, fáciles de usar y efectivas para los usuarios.",
         sectionP3:
-          "Me encanta trabajar en equipo y colaborar con diseñadores, desarrolladores backend y otros profesionales para crear soluciones digitales innovadoras. Mi objetivo es seguir creciendo como desarrollador frontend y trabajar en proyectos que me permitan aplicar mis habilidades.",
+          "Me encanta trabajar en equipo y colaborar con diseñadores, desarrolladores backend y otros profesionales para crear soluciones digitales innovadoras. Mi objetivo es seguir creciendo como desarrollador fullstack y trabajar en proyectos que me permitan aplicar mis habilidades.",
       },
     },
     skillsSection: {
@@ -185,29 +189,27 @@ const translations: { en: Translation; es: Translation } = {
       title: "Experiencia",
       jobs: {
         job1: {
-          title: "Desarrollador frontend",
-          date: "Oct. 2022 - Presente",
-          company: "WAYAKNA SA de CV",
+          title: "Freelance Frontend Developer",
+          date: "May. 2023 - Presente",
+          company: "Proyecto personal",
           description: {
-            p1: "Desarrollé habilidades especializadas en la creación de páginas web utilizando frameworks como Vue.js. Trabajé en proyectos en los que pude desarrollar mi experiencia en el diseño UI/UX y la creación de páginas web responsivas.",
-            p2: "Además, generé experiencia en la creación y mantenimiento de API's con Python. Mi experiencia en la implementación de SASS y Bootstrap en proyectos me ha permitido diseñar sitios web y aplicaciones web con un estilo consistente y una estructura sólida.",
-            p3: "Mejoré mi capacidad para realizar reuniones con clientes para comprender sus necesidades y metas en detalle y poder trabajar de cerca con equipos multidisciplinarios y brindar soluciones de calidad.",
+            p1: "Utilicé Vue.js y JavaScript para crear una aplicación, optimizando el rendimiento con bibliotecas específicas de Vue.js. Trabajé en equipo, colaborando estrechamente con un diseñador UI/UX, y utilizamos Astro para desarrollar la landing page. Implementamos Git Flow y SCRUM para una gestión eficiente del proyecto. Además, integré el frontend con el backend mediante una API, y utilicé herramientas como SASS y Tailwind CSS para mejorar los estilos y el diseño del proyecto.",
           },
         },
         job2: {
-          title: "Supervisor de control de calidad",
-          date: "Oct. 2021 - May. 2022",
-          company: "Productos de harina SA de CV, Dondé",
+          title: "FullStack Developer",
+          date: "Feb. 2022 - Jul. 2023",
+          company: "Original Protostar Marketing",
           description: {
-            p1: "En mi experiencia laboral como supervisor de calidad, fui responsable de asegurar que los procesos de producción cumplieran con los estándares de calidad establecidos. Esto incluyó supervisar y monitorear procesos, realizar pruebas y evaluaciones, y asegurar el cumplimiento de las especificaciones requeridas. Además, también di cursos de inducción a los nuevos trabajadores de la empresa, presentando las políticas y procedimientos de calidad de la empresa y las herramientas y técnicas utilizadas para garantizar la calidad en la producción.",
+            p1: "Determiné tecnologías como Vue.js, React, Next.js para crear sitios web según requerimientos del cliente. Colaboré con el equipo de diseño web y brindé apoyo en la creación de APIs con Node.js y Express en el backend. Además, realicé análisis de bases de datos utilizando MongoDB. Codifiqué, diseñé y maqueté sitios web según especificaciones de la empresa, brindando asistencia y mantenimiento continuo. Enfocado en proporcionar una excelente experiencia de usuario, adquirí habilidades en UI/UX.",
           },
         },
         job3: {
-          title: "Auxiliar de calidad y supervisor de área de producción",
-          date: "Nov. 2020 - Jul. 2021",
-          company: "PCP del sureste SA de CV",
+          title: "Frontend Developer",
+          date: "Ago. 2022 - Feb. 2023",
+          company: "WAYAKNA SA de CV",
           description: {
-            p1: "Como responsable de la inspección de producción y los procedimientos de los trabajadores, supervisé y monitoreé los procesos de producción para garantizar el cumplimiento de los estándares de calidad y seguridad. Implementé y supervisé los procedimientos de inspección de producción y limpieza de equipos, y trabajé de manera colaborativa con el personal de producción, capacitando a los nuevos trabajadores y supervisando los procesos para garantizar la consistencia y el cumplimiento de los procedimientos. Además, mantuve registros detallados de los procedimientos de limpieza para garantizar el cumplimiento de los estándares de calidad y seguridad. Mi experiencia me ha dado una sólida comprensión de los procesos de producción, habilidades de liderazgo y organización efectivas.",
+            p1: "Adquirí habilidad en la creación de páginas web con Vue.js y en el diseño de interfaces de usuario (UI/UX) responsivas. Experiencia en la creación y mantenimiento de API's con Python. Uso de SASS y Bootstrap para diseñar sitios y aplicaciones web. Capacidad para realizar reuniones con clientes, trabajar en equipos multidisciplinarios y ofrecer soluciones de calidad. Comprometido con la excelencia y resultados excepcionales.",
           },
         },
       },
@@ -240,31 +242,37 @@ const translations: { en: Translation; es: Translation } = {
       projects: {
         project1: {
           title: "Cashflow 💰",
-          description: "Aplicación web de seguimiento de gastos, permite a los usuarios registrar y categorizar sus gastos, ver gráficos interactivos de sus gastos y así poder tener un seguimiento respecto a sus egresos e ingresos y ser más consientes respecto a su economía.",
+          description:
+            "Aplicación web de seguimiento de gastos, permite a los usuarios registrar y categorizar sus gastos, ver gráficos interactivos de sus gastos y así poder tener un seguimiento respecto a sus egresos e ingresos y ser más consientes respecto a su economía.",
         },
         project2: {
           title: "Catstagram 🐱",
-          description: "Proyecto desarrollado con un framework que muestra imágenes de gatos obtenidas de una API. La aplicación es responsiva y se actualiza automáticamente cada vez que se carga la página."
+          description:
+            "Proyecto desarrollado con un framework que muestra imágenes de gatos obtenidas de una API. La aplicación es responsiva y se actualiza automáticamente cada vez que se carga la página.",
         },
         project3: {
           title: "Flappy Bird 🐦",
-          description: "Juego donde el objetivo es guiar a un pájaro a través de una serie de tuberías sin chocar contra ellas, haciendo clic en la pantalla para que el pájaro vuele y soltar para que caiga. El objetivo final es avanzar lo más posible en el juego."
+          description:
+            "Juego donde el objetivo es guiar a un pájaro a través de una serie de tuberías sin chocar contra ellas, haciendo clic en la pantalla para que el pájaro vuele y soltar para que caiga. El objetivo final es avanzar lo más posible en el juego.",
         },
         project4: {
           title: "Weather App 🌤",
-          description: "Aplicación que permite conocer el clima actual de un lugar específico en el mundo. Para obtener los datos del clima, se utiliza la API de OpenWeatherMap.",
+          description:
+            "Aplicación que permite conocer el clima actual de un lugar específico en el mundo. Para obtener los datos del clima, se utiliza la API de OpenWeatherMap.",
         },
         project5: {
           title: "Super Runner 🎮",
-          description: "Juego que consiste en un personaje debe superar obstáculos y llegar al final del nivel. El jugador lo controla con el teclado y si choca con un obstáculo, pierde y debe empezar de nuevo."
+          description:
+            "Juego que consiste en un personaje debe superar obstáculos y llegar al final del nivel. El jugador lo controla con el teclado y si choca con un obstáculo, pierde y debe empezar de nuevo.",
         },
         project6: {
           title: "Calculadora básica ➕",
-          description: "La calculadora es capaz de realizar operaciones básicas de matemáticas, como la suma, resta, multiplicación y división. Dispone de un botón de reinicio que permite borrar el resultado actual y empezar de nuevo."
+          description:
+            "La calculadora es capaz de realizar operaciones básicas de matemáticas, como la suma, resta, multiplicación y división. Dispone de un botón de reinicio que permite borrar el resultado actual y empezar de nuevo.",
         },
       },
       code: "Código",
-      demo: "Ver demo"
+      demo: "Ver demo",
     },
   },
 };

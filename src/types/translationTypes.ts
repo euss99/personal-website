@@ -49,8 +49,6 @@ export type Translation = {
         company: string;
         description: {
           p1: string;
-          p2: string;
-          p3: string;
         };
       };
       job2: {
